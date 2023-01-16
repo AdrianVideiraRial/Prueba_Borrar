@@ -1,21 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
     background-color: black;
 }
 
-.Encabezado{
+.Flex{
     display: flex;
-    flex-wrap: wrap;
-    background-color: aqua;
+    align-items: center;
     justify-content: center;
-
-   
-   
+    height: 100vh;
 }
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10vh;
     color: white;
-    text-align: center;
-   
+       
 }
